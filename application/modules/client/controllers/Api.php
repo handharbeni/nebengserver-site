@@ -1,5 +1,6 @@
 <?php
-require_once '/var/www/html/nebeng_server/Requests/library/Requests.php';
+require_once './Requests/library/Requests.php';
+// require_once '/var/www/html/nebeng_server/Requests/library/Requests.php';
 class Api{
 	private $headers;
 	function __construct(){

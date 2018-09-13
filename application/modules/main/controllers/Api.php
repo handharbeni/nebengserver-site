@@ -1,5 +1,6 @@
 <?php
-require_once '/var/www/html/nebeng_server/Requests/library/Requests.php';
+require_once './Requests/library/Requests.php';
+// require_once '/var/www/html/nebeng_server/Requests/library/Requests.php';
 class Api{
 	function __construct(){
 		Requests::register_autoloader();
